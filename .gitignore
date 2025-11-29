@@ -1,0 +1,35 @@
+# Ignore dataset folders (train/val/test)
+dataset/
+data/
+garbage_split/
+garbage_dataset/
+
+# Ignore large files
+*.zip
+*.rar
+*.tar.gz
+
+# Python cache + build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# Streamlit cache
+.streamlit/
